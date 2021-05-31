@@ -1,0 +1,133 @@
+Skip to content
+Search or jump to…
+
+Pull requests
+Issues
+Marketplace
+Explore
+ 
+@darshitadroja 
+darshitadroja
+/
+15-days-internship
+1
+00
+Code
+Issues
+Pull requests
+Actions
+Projects
+Wiki
+Security
+Insights
+Settings
+15-days-internship/DAY 1
+@darshitadroja
+darshitadroja Update DAY 1
+Latest commit df4065b 5 days ago
+ History
+ 1 contributor
+89 lines (75 sloc)  1.87 KB
+  
+I LEARNED ABOUT BASIC OF ANDROID. AFTER I INSTALLED AND SET UP ADROID STUDIO.
+BASICJAVA PROGRAMMS......
+
+1.....
+AREA OF CIRCLE PROGRAM
+
+import java.util.Scanner;
+class AreaOfCircle 
+{
+   public static void main(String args[]) 
+    {   
+       
+      Scanner s= new Scanner(System.in);
+        
+         System.out.println("Enter the radius:");
+         double r= s.nextDouble();
+         double  area=(22*r*r)/7 ;
+         System.out.println("Area of Circle is: " + area);      
+   }
+}
+
+2......
+SUM OF N NUMBER..
+
+class sum
+{
+	public static void main(String arg[])	
+	{
+                  int n,sum=0;
+                  
+                  Scanner sc=new Scanner(System.in);
+ 
+	    System.out.println("enter how many numbers you want sum");
+                   n=sc.nextInt();
+                   int a[]=new int[n]; 
+	    System.out.println("enter the "+n+" numbers ");
+                   for(int i=0;i<n;i++)
+                   {      
+	             System.out.println("enter  number  "+(i+1)+":");
+                           a[i]=sc.nextInt();
+                   }
+                   for(int i=0;i<n;i++)
+                   {
+                           sum+=a[i];
+                   }  	    
+                   System.out.println("sum of "+n+" numbers is ="+sum);                  
+              	}
+} 
+
+
+3.......
+
+VOWEL CHECK PROGRAM........
+
+
+class VowelsInaString
+{
+	public static void main(String[ ] arg)
+	{
+	String s;
+	char ch;
+	int i=0;
+	Scanner sc=new Scanner(System.in);
+	System.out.print("Enter a string : ");
+	s=sc.nextLine();	
+	System.out.println("Vowels in a string are"); 
+	for(int j=0;j<s.length();j++)
+	{
+	ch=s.charAt(j);	
+	switch(ch)
+	{
+	 case  'a' :
+	 case 'e'  :
+	 case 'i'   :
+	 case 'o'  :
+	 case 'u'  :
+	 case  'A' :
+	 case 'E'  :
+	 case 'I'   :
+	 case 'O'  :	
+	 case 'U'  :i=1;
+		System.out.println(ch); 			 
+	}	
+	}
+	if(i==0)
+		System.out.println("There are no vowels in a string"); 
+	
+	}
+}
+© 2021 GitHub, Inc.
+Terms
+Privacy
+Security
+Status
+Docs
+Contact GitHub
+Pricing
+API
+Training
+Blog
+About
+Loading complete
